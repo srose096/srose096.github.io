@@ -5,20 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <title>Lesson Booking Confirmation</title>
+  <title>Golf Course Website</title>
   <style>
-    .container {
-      max-width: 500px;
-      margin: 50px auto;
-    }
 
-    .footer {
-      background-color: #198754;
-      padding: 20px;
-      color: white;
-      text-align: center;
-    }
-  </style>
+  .footer {
+    background-color: #198754;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+  }
+</style>
+
 </head>
 
 <body>
@@ -26,8 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <div class="container fluid">
         <a class="navbar-brand" href="#">
-          <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24"
-            class="d-inline-block align-text-top">
+          <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
           GeeGees Golf & Country
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,45 +39,52 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Golf
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Green Fees</a></li>
-                <li><a class="dropdown-item" href="#">Membership</a></li>
-                <li><a class="dropdown-item" href="#">Driving range</a></li>
-                <li><a class="dropdown-item" href="#">Golf Lessons</a></li>
+                <li><a class="dropdown-item" href="fees.html">Green Fees</a></li>
+                <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
+                <li><a class="dropdown-item" href="range.html">Driving range</a></li>
+                <li><a class="dropdown-item" href="lessons.html">Golf Lessons</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
-          <a class="btn btn-primary ml-3" href="#">Book Now</a>
+          <a class="btn btn-primary ml-3" href="booking.html">Book Now</a>
         </div>
       </div>
     </nav>
   </header>
 
-  <div class="container">
-    <h1>Lesson Booking Confirmation</h1>
+  <div class="container mt-5">
+    <h1>Thank you!</h1>
+    <div style="margin-top: 50px;"></div>
     <div class="alert alert-success" role="alert">
-      Your lesson session has been successfully booked!
+      Your session has been successfully booked.
     </div>
+    <div class="booking-info">
+      <p>Your booking number is: <strong>#12345</strong></p>
+      <p>A confirmation will be sent to your email address.</p>
+    </div>
+
   </div>
 
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2023 GeeGees Golf & Country. All rights reserved.</p>
-    </div>
-  </footer>
+  <div style="margin-top: 550px;"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 GeeGees Golf & Country. All rights reserved.</p>
+      </div>
+    </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <title>Golf Course Website</title>
+  <title>About Us - GeeGees Golf & Country</title>
   <style>
     .footer {
       background-color: #198754;
@@ -24,6 +24,11 @@
 
     .about-content {
       margin: 20px;
+      text-align: center;
+    }
+    .about-text{
+      margin: 20px;
+      text-align: left;
     }
 
     .hours {
@@ -35,87 +40,108 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container fluid">
-            <a class="navbar-brand" href="#">
-            <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                GeeGees Golf & Country
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Golf
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="fees.html">Green Fees</a></li>
-                      <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
-                      <li><a class="dropdown-item" href="range.html">Driving range</a></li>
-                      <li><a class="dropdown-item" href="lessons.html">Golf Lessons</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-                <a class="btn btn-primary ml-3" href="booking.html">Book Now</a>
-              </div>
-            </div>
-          </nav>
-        </header>
-
-
-    <div class="about-content">
-      <h1>About Us</h1>
-      <p>
-        Welcome to GeeGees Golf & Country, a premier golf course that offers a unique and enjoyable experience for golfers
-        of all levels. Nestled in a picturesque location, our course provides stunning views and a challenging yet
-        rewarding playing experience.
-
-        Our dedicated team is committed to providing exceptional service and maintaining the course to the highest
-        standards. We offer a range of services, including golf lessons, driving range facilities, and a fully stocked
-        pro shop with the latest golf equipment and apparel.
-
-        Whether you're a seasoned golfer or just starting out, our course offers something for everyone. Join us for a
-        round of golf, improve your skills with our professional instructors, or simply relax and enjoy the beautiful
-        surroundings.
-
-        We look forward to welcoming you to GeeGees Golf & Country and providing you with an unforgettable golfing
-        experience.
-
-      </p>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2>Contact Information</h2>
-        <p>Email: info@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24"
+            class="d-inline-block align-text-top">
+          GeeGees Golf & Country
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Golf
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="fees.html">Green Fees</a></li>
+                <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
+                <li><a class="dropdown-item" href="range.html">Driving range</a></li>
+                <li><a class="dropdown-item" href="lessons.html">Golf Lessons</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <a class="btn btn-primary ml-3" href="booking.html">Book Now</a>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h2>Location</h2>
-        <p>123 Golf Course Rd, City, State, Zip Code</p>
-        <div id="map"></div>
-      </div>
-    </div>
+    </nav>
+  </header>
 
-    <div class="hours">
-      <h2>Hours of Operation</h2>
-      <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-      <p>Saturday - Sunday: 7:00 AM - 7:00 PM</p>
+  <div class="about-content">
+    <h1>About Us</h1>
+    <p class="about-text">
+      Welcome to GeeGees Golf & Country, a premier golf course that offers a unique and enjoyable experience for golfers
+      of all levels. Nestled in a picturesque location, our course provides stunning views and a challenging yet
+      rewarding playing experience.
+
+      Our dedicated team is committed to providing exceptional service and maintaining the course to the highest
+      standards. We offer a range of services, including golf lessons, driving range facilities, and a fully stocked
+      pro shop with the latest golf equipment and apparel.
+
+      Whether you're a seasoned golfer or just starting out, our course offers something for everyone. Join us for a
+      round of golf, improve your skills with our professional instructors, or simply relax and enjoy the beautiful
+      surroundings.
+
+      We look forward to welcoming you to GeeGees Golf & Country and providing you with an unforgettable golfing
+      experience.
+
+    </p>
+  </div>
+
+  <section class="container mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1f/48/31/oxmoor-valley-golf-course.jpg?w=1200&h=-1&s=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/209982/pexels-photo-209982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.calgary.ca/content/dam/www/csps/recreation/publishingimages/golf-homepage/confederation/confederation-driving-range-2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </section>
+    <div class="text-center mt-4">
+      <a class="btn btn-primary btn-lg" href="booking.html">Book Now</a>
+    </div>
+    </section>
+
+    <div style="margin-top: 500px;"></div>
+
+  <div class="hours">
+    <h2>Hours of Operation</h2>
+    <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+    <p>Saturday - Sunday: 7:00 AM - 7:00 PM</p>
+  </div>
 
   <footer class="footer">
     <div class="container">
@@ -124,7 +150,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
- 
+
 </body>
 
 </html>
