@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>Golf Course Website</title>
+  <style>
+
+  .footer {
+    background-color: #198754;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .content{
+    flex:1;
+  }
+</style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          GeeGees Golf & Country
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Golf
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="fees.html">Green Fees</a></li>
+                <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
+                <li><a class="dropdown-item" href="range.html">Driving range</a></li>
+                <li><a class="dropdown-item" href="lessons.html">Golf Lessons</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <a class="btn btn-primary ml-3" href="booking.html">Book Now</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container mt-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Golf</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Green Fees</li>
+      </ol>
+    </nav>
+
+  <section class="container mt-5">
+    <h1>Green Fees</h1>
+    <div style="margin-top: 50px;"></div>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Hole Type</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>18 hole (weekday)</td>
+          <td>$45</td>
+        </tr>
+        <tr>
+          <td>18 hole (weekend)</td>
+          <td>$48</td>
+        </tr>
+        <tr>
+          <td>9 hole</td>
+          <td>$26</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top: 100px;"></div>
+
+    <h1>Rental Cart</h1>
+    <div style="margin-top: 50px;"></div>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Hole Type</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>18 hole (weekday)</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td>18 hole (weekend)</td>
+          <td>$22</td>
+        </tr>
+        <tr>
+          <td>9 hole</td>
+          <td>$12</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="container mt-5">
+
+  </section>
+  </section>
+
+  <div style="margin-top: 50px;"></div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 GeeGees Golf & Country. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

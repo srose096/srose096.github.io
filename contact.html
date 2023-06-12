@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>Golf Course Website</title>
+  <style>
+
+  .footer {
+    background-color: #198754;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .content{
+    flex:1;
+  }
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+          <div class="container fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://www.geegees.ca/sites/default/files/splash-geegees-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+              GeeGees Golf & Country
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Golf
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="fees.html">Green Fees</a></li>
+                    <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
+                    <li><a class="dropdown-item" href="range.html">Driving range</a></li>
+                    <li><a class="dropdown-item" href="lessons.html">Golf Lessons</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <a class="btn btn-primary ml-3" href="booking.html">Book Now</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+  <section class="container mt-5">
+    <!-- Image Carousel -->
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.golfchannel.com/sites/default/files/2020/03/19/golf_swing_stock_1920.jpg" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.restonnationalgc.com/wp-content/uploads/2021/10/Reston-National-Golf-Course-2021.jpg" class="d-block w-100" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.usatoday.com/gcdn/-mm-/60458e90cbf01f9a9c0e3c412649c39c0638a247/c=0-160-3955-2394/local/-/media/2016/12/13/USATODAY/USATODAY/636172485623878208-KK6A6612.jpg" class="d-block w-100" alt="Image 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h4>Contact Information</h4>
+        <p>Email: GeeGeesGolf@uottawa.ca</p>
+        <p>Phone: +1 613-562-2526</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Address</h4>
+        <p>126 Bayview St.</p>
+        <p>Ottawa, ON, K0A 1F7</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 GeeGees Golf & Country. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
